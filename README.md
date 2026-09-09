@@ -121,7 +121,8 @@ not an outlier to be cleaned — it is the observation the whole first section i
 
 ```
 data/wa_housing_county_month.csv     3,451 rows, one per county-month
-BUILD_GUIDE.md                       every DAX measure, and how this was built
+DAX_MEASURES.md                      every measure, with the value each should return
+BUILD_GUIDE.md                       how this was built
                                      in the browser without Power BI Desktop
 images/                              report screenshots
 ```
