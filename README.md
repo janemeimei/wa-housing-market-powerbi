@@ -109,7 +109,15 @@ not an outlier to be cleaned — it is the observation the whole first section i
 
 ---
 
-## 5. Files
+## 5. The report
+
+![Page 1 — how you average changes the answer](images/page1-averaging.png)
+
+![Page 2 — price cuts and time to sell](images/page2-price-cuts.png)
+
+---
+
+## 6. Files
 
 ```
 data/wa_housing_county_month.csv     3,451 rows, one per county-month
@@ -118,18 +126,18 @@ BUILD_GUIDE.md                       every DAX measure, and how this was built
 images/                              report screenshots
 ```
 
-Built entirely in the **Power BI Service** web interface — data modelled through
-Power Query, measures written in DAX, report authored in the browser. No Windows
-machine was involved. `BUILD_GUIDE.md` documents that path, including the
-`.pbix` download restriction that made a hosted data source necessary rather than
-an uploaded file.
+Data modelled in **Power Query**, measures written in **DAX**, two report pages.
+`BUILD_GUIDE.md` documents the full build — every measure, every visual's field
+configuration, and the browser-only authoring path for anyone without a Windows
+machine, including the `.pbix` download restriction that made a hosted data source
+necessary rather than an uploaded file.
 
 **Source:** [Redfin Data Center](https://www.redfin.com/news/data-center/),
 county_market_tracker. Public data, free to use with attribution.
 
 ---
 
-## 6. What this does not establish
+## 7. What this does not establish
 
 - **County-level aggregates only.** Nothing here sees within-county variation, and
   price tier and housing mix are uncontrolled.
