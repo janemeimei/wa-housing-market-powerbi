@@ -111,9 +111,18 @@ not an outlier to be cleaned — it is the observation the whole first section i
 
 ## 5. The report
 
-![Page 1 — how you average changes the answer](images/page1-averaging.png)
+**Page 1 — how you average changes the answer.** Months of supply for May 2026 shown two
+ways side by side: 6.62 unweighted across 39 counties (a buyer's market by the standard
+6-month rule) against 3.08 weighted by sales volume (a seller's market). Same month, same
+data, opposite conclusions.
 
-![Page 2 — price cuts and time to sell](images/page2-price-cuts.png)
+**Page 2 — price cuts and time to sell.** Share of listings with a price cut against median
+days on market, by county-month, with the seasonal component removed.
+
+Every measure behind both pages is written out in
+[`DAX_MEASURES.md`](DAX_MEASURES.md), each with the value it should return so the numbers
+above can be checked. [`POWER_QUERY_M.md`](POWER_QUERY_M.md) has the full transformation
+code, and [`BUILD_GUIDE.md`](BUILD_GUIDE.md) reproduces the report from the raw CSV.
 
 ---
 
@@ -124,7 +133,6 @@ data/wa_housing_county_month.csv     3,451 rows, one per county-month
 DAX_MEASURES.md                      every measure, with the value each should return
 BUILD_GUIDE.md                       how this was built
                                      in the browser without Power BI Desktop
-images/                              report screenshots
 ```
 
 Data modelled in **Power Query**, measures written in **DAX**, two report pages.
