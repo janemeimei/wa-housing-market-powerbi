@@ -2,6 +2,21 @@
 
 **39 counties · 89 months · 2019-01 to 2026-05 · Redfin public data · Power BI**
 
+## Who this is for
+
+Anyone who needs to answer one question: **is this a buyer's market or a seller's
+market?** Buyers and sellers deciding when to move. Agents advising them. Anyone
+reading a headline that says Washington has tipped one way or the other.
+
+You do not need to know what a DAX measure is to use it. You need to know which
+number applies to the county you are actually in — because the state-level figure
+that gets published may not.
+
+**What it does:** shows the market reading for your county, next to the state figure,
+and makes visible the one choice that decides which verdict you get.
+
+---
+
 Months of supply is the standard measure of whether a housing market favours buyers or
 sellers. Under four months is a seller's market; over six is a buyer's market.
 
@@ -86,8 +101,26 @@ About a quarter of the raw correlation was seasonal. The rest was not.
 toward the clearing price. The markets that stall are the ones where asking prices
 do not move.
 
+**What this means if you are buying or selling:** a county where lots of listings are
+cutting price is not a county where nothing is selling. It is a county where sellers
+have already adjusted. The slow county is the one where asking prices have not moved
+yet — and a seller there is competing against neighbours who are still anchored to
+last year's number.
+
 🔴 **This is an association, not a causal estimate.** Counties differ in price tier,
 housing mix, and demand, and none of that is controlled for here.
+
+---
+
+## 3b. Why this exists
+
+Market verdicts get published as a single state-level number, and people act on them
+— when to list, when to offer, whether to wait. That number is an average of 39
+counties that each count once, regardless of whether they sold 2 homes or 2,134.
+
+For most of Washington's population the published figure is not the figure that
+applies to them. This report puts both numbers in front of the reader and shows which
+choice produced which verdict, so the answer can be checked rather than taken.
 
 ---
 
